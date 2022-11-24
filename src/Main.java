@@ -1,9 +1,12 @@
-import java.util.Arrays;
+import java.awt.*;
 
-public class Main {
+
+public class Main extends Frame {
+
     public static void main(String[] args) {
 
         BingoCard bingoCard = new BingoCard();
-        System.out.println(Arrays.deepToString(bingoCard.getCardValues()));
+
+        BingoGraphic bingoGraphic = new BingoGraphic(bingoCard.getCardValues());
     }
 }

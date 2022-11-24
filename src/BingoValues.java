@@ -4,7 +4,7 @@
  * @author Karl Werner
  * @version 1.0
  *
- * Ausfüllen...
+ * fill...
  */
 public enum BingoValues {
     I("Don't Panic!"),
